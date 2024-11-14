@@ -8,7 +8,7 @@ const NotFoundPage = lazy(() => import('@/pages/NotFound'));
 
 export default function AppRoutes() {
     return (
-        <main>
+        <main className='pt-20 grow'>
             <Routes>
                 <Route path='/' element={<HomePage />} />
                 <Route path='/projects' element={<ProjectsPage />} />

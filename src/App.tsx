@@ -4,7 +4,7 @@ import MainLayout from './layout/MainLayout';
 
 export default function App() {
     return (
-        <Suspense>
+        <Suspense fallback={<h1>Loading...</h1>}>
             <Router future={{
                 v7_startTransition: true,
                 v7_relativeSplatPath: true

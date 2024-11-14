@@ -14,6 +14,9 @@ export default {
       fontFamily: {
         'nunito-500': ['nunito-medium'],
         'montserrat-300': ['montserrat-light']
+      },
+      transitionDuration: {
+        'standar': '300ms'
       }
     },
   },

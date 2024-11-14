@@ -3,15 +3,15 @@ import { GithubIcon } from '@/components/Icons';
 
 export default function Header() {
     return (
-        <header className='w-full border-b border-b-main-yellow'>
+        <header className='w-full max-w-[800px] border-b border-b-main-yellow fixed'>
             <div className='flex justify-between px-9 pb-4 pt-5'>
-                <div className='*:p-2.5 *:transition-colors *:duration-300'>
+                <div className='*:p-2.5 *:transition-colors *:duration-standar'>
                     <Link to='/' className='hover:text-main-yellow/90'>Home</Link>
                     <Link to='/projects' className='hover:text-main-yellow/90'>Projects</Link>
                 </div>
-                <div className='transition-all duration-300 hover:scale-[1.15] hover:text-main-yellow/90'>
+                <div className='transition-all duration-standar hover:scale-[1.15] hover:text-main-yellow/90'>
                     <a
-                        href='https://github.com/drlncode/JS-Projects-Collection'
+                        href='https://github.com/drlncode/JavaScript-Collection'
                         target='_blank'
                     >
                         <div>
