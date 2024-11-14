@@ -17,7 +17,7 @@ export default function HomePage() {
             </div>
             <div className='text-sm flex justify-center items-center pt-10 gap-3 '>
                 <Button
-                    to='https://github.com/drlncode/JavaScript-Collection'
+                    to='https://github.com/drlncode'
                     external={true}
                     iconDirection='left'
                     label='Github Profile'
