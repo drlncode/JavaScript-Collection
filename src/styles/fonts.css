@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'nunito-medium';
+    src: url('/assets/fonts/Nunito-Medium.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'montserrat-light';
+    src: url('/assets/fonts/Montserrat-Light.woff2') format('woff2');
+}
