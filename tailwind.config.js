@@ -17,6 +17,12 @@ export default {
       },
       transitionDuration: {
         'standar': '300ms'
+      },
+      screens: {
+        'content': '800px'
+      },
+      boxShadow: {
+        'project': '0 0 4px #e9e521'
       }
     },
   },

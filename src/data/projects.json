@@ -6,17 +6,17 @@
     },
     {
         "id": "test2",
+        "image": "static/projects/test2/image.png",
+        "description": "Empty project for development."
+    },
+    {
+        "id": "test3",
         "image": "static/projects/test/image.png",
         "description": "Empty project for development."
     },
     {
-        "id": "test2",
-        "image": "static/projects/test/image.png",
-        "description": "Empty project for development."
-    },
-    {
-        "id": "test2",
-        "image": "static/projects/test/image.png",
+        "id": "test4",
+        "image": "static/projects/test2/image.png",
         "description": "Empty project for development."
     }
 ]
