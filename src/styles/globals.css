@@ -9,3 +9,30 @@
         overflow-y: hidden;
     }
 }
+
+@layer utilities {
+    /* .scrollbar-custom {
+        scrollbar-width: thin;
+        scrollbar-color: #e9e521 #010103;
+        border-radius: 4px;
+    } */
+
+    .scrollbar-custom::-webkit-scrollbar {
+        width: 6px;
+        height: 10px;
+    }
+
+    .scrollbar-custom::-webkit-scrollbar-thumb {
+        background-color: #e9e521;
+        border-radius: 9999px;
+        transition: all 0.5s ease;
+    }
+
+    .scrollbar-custom::-webkit-scrollbar-track {
+        background-color: #010103;
+    }
+
+    /* .scrollbar-custom:hover::-webkit-scrollbar-thumb {
+        background-color: #e9e521;
+    } */
+}
