@@ -3,7 +3,7 @@ import { GithubIcon } from '@/components/Icons';
 
 export default function Header() {
     return (
-        <header className='w-full max-w-[800px] border-b border-b-main-yellow fixed'>
+        <header className='bg-main-black fixed w-full max-w-[800px] border-b border-b-main-yellow'>
             <div className='flex justify-between px-9 pb-4 pt-5'>
                 <div className='*:p-2.5 *:transition-colors *:duration-standar'>
                     <Link to='/' className='hover:text-main-yellow/90'>Home</Link>

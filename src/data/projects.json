@@ -1,0 +1,22 @@
+[
+    {
+        "id": "test",
+        "image": "static/projects/test/image.png",
+        "description": "Empty project for development."
+    },
+    {
+        "id": "test2",
+        "image": "static/projects/test/image.png",
+        "description": "Empty project for development."
+    },
+    {
+        "id": "test2",
+        "image": "static/projects/test/image.png",
+        "description": "Empty project for development."
+    },
+    {
+        "id": "test2",
+        "image": "static/projects/test/image.png",
+        "description": "Empty project for development."
+    }
+]
