@@ -1,14 +1,11 @@
 import projects from '@/data/projects.json';
+import ProjectItem from '@/components/ProjectItem';
 
 export default function ProjectsPage() {
     return (
-        <section>
+        <section className=''>
             {(projects.map(project => (
-                <div>
-                    <h2>{ project.id }</h2>
-                    <span>{ project.description }</span>
-                    <img src={project.image} alt={project.id} />
-                </div>
+                <ProjectItem project={project} />
             )))}
         </section>
     );
