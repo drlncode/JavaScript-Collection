@@ -8,7 +8,7 @@ const NotFoundPage = lazy(() => import('@/pages/NotFound'));
 
 export default function AppRoutes() {
     return (
-        <main className='pt-20 grow'>
+        <main className='mt-[60px] hover:overflow-y-auto'>
             <Routes>
                 <Route path='/' element={<HomePage />} />
                 <Route path='/projects' element={<ProjectsPage />} />

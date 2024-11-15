@@ -5,7 +5,8 @@ export default function ProjectsPage() {
         <section>
             {(projects.map(project => (
                 <div>
-                    { project.id }
+                    <h2>{ project.id }</h2>
+                    <span>{ project.description }</span>
                     <img src={project.image} alt={project.id} />
                 </div>
             )))}
