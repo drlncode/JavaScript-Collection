@@ -1,21 +1,21 @@
 [
     {
-        "id": "test",
+        "id": "Test",
         "image": "static/projects/test/image.png",
-        "description": "Empty project for development."
+        "description": "Empty project for development algo grande aaaaaaa siisisi asyas qu enasbjhasj asjhas."
     },
     {
-        "id": "test2",
+        "id": "Test2",
         "image": "static/projects/test2/image.png",
         "description": "Empty project for development."
     },
     {
-        "id": "test3",
+        "id": "Test3",
         "image": "static/projects/test/image.png",
         "description": "Empty project for development."
     },
     {
-        "id": "test4",
+        "id": "Test4",
         "image": "static/projects/test2/image.png",
         "description": "Empty project for development."
     }
