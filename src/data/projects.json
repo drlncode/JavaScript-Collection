@@ -1,22 +1,8 @@
 [
     {
-        "id": "Test",
+        "id": "test",
         "image": "static/projects/test/image.png",
-        "description": "Empty project for development algo grande aaaaaaa siisisi asyas qu enasbjhasj asjhas."
-    },
-    {
-        "id": "Test2",
-        "image": "static/projects/test2/image.png",
-        "description": "Empty project for development."
-    },
-    {
-        "id": "Test3",
-        "image": "static/projects/test/image.png",
-        "description": "Empty project for development."
-    },
-    {
-        "id": "Test4",
-        "image": "static/projects/test2/image.png",
-        "description": "Empty project for development."
+        "description": "Empty project for development algo grande aaaaaaa siisisi asyas qu enasbjhasj asjhas.",
+        "codeUrl": "https://github.com/drlncode/JavaScript-Collection/tree/master/public/static/projects/test"
     }
 ]
