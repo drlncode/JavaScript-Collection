@@ -1,5 +1,5 @@
 import { Button } from '@/components/Button';
-import { HomeIcon, ArrrowNarrowRightIcon } from '@/components/Icons';
+import { HomeIcon, ArrowNarrowRightIcon } from '@/components/Icons';
 
 export default function NotFoundPage() {
     return (
@@ -26,7 +26,7 @@ export default function NotFoundPage() {
                         external={false}
                         iconDirection='right'
                         label='See Projects'
-                        icon={<ArrrowNarrowRightIcon size={20} />}
+                        icon={<ArrowNarrowRightIcon size={20} />}
                     />
                 </div>
             </div>
