@@ -1,5 +1,7 @@
 import { useParams, Navigate } from 'react-router-dom';
 import { useProjects } from '@/hooks/useProjects';
+import { TriggerButton } from '@/components/TriggerButton';
+import { ArrowsMaximizeIcon } from '@/components/Icons';
 
 export default function ProjectPage() {
     const { name } = useParams();
@@ -10,6 +12,10 @@ export default function ProjectPage() {
     }
 
     const { project } = projectValidation;
+
+    const clickHandler = () => {
+        console.log('Yay open');
+    }
 
     return (
         <section className='pt-5'>
@@ -24,7 +30,24 @@ export default function ProjectPage() {
                         />
                     </div>
                 </div>
-                <div></div>
+                <div className='flex flex-col'>
+                    <div className='flex flex-col'>
+                        <div className='text-2xl'>
+                            <h3>{ project.id }</h3>
+                        </div>
+                        <div>
+                            <p>{ project.description }</p>
+                        </div>
+                    </div>
+                    <div>
+                        <TriggerButton
+                            clickHandler={clickHandler}
+                            className='text-main-white text-sm gap-1.5 px-3'
+                            label='Open'
+                            icon={<ArrowsMaximizeIcon size={18} />}
+                        />
+                    </div>
+                </div>
             </div>
             <div></div>
         </section>

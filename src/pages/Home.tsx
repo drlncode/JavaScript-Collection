@@ -1,6 +1,6 @@
 import { HighlightText } from '@/components/HighlightText';
 import { Button } from '@/components/Button';
-import { GithubIcon, ArrrowNarrowRightIcon } from '@/components/Icons';
+import { GithubIcon, ArrowNarrowRightIcon } from '@/components/Icons';
 
 export default function HomePage() {
     return (
@@ -28,7 +28,7 @@ export default function HomePage() {
                     external={false}
                     iconDirection='right'
                     label='See Projects'
-                    icon={<ArrrowNarrowRightIcon />}
+                    icon={<ArrowNarrowRightIcon />}
                 />
             </div>
         </section>
