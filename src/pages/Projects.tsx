@@ -3,6 +3,10 @@ import ProjectItem from '@/components/ProjectItem';
 
 export default function ProjectsPage() {
     const projects = useProjects();
+
+    if (!projects.length) {
+        return <h1>No projects already.</h1>
+    }
     
     return (
         <section className='pl-1 pr-2'>

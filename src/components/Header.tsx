@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { GithubIcon } from '@/components/Icons';
+import { ExternalLink } from '@/components/ExternalLink';
 
 export default function Header() {
     return (
@@ -10,14 +11,11 @@ export default function Header() {
                     <Link to='/projects' className='hover:text-main-yellow'>Projects</Link>
                 </div>
                 <div className='transition-all duration-standar hover:scale-[1.15] hover:text-main-yellow/90'>
-                    <a
-                        href='https://github.com/drlncode/JavaScript-Collection'
-                        target='_blank'
-                    >
+                    <ExternalLink to='https://github.com/drlncode/JavaScript-Collection'>
                         <div>
                             <GithubIcon size={22} />
                         </div>
-                    </a>
+                    </ExternalLink>
                 </div>
             </div>
         </header>

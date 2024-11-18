@@ -16,7 +16,9 @@ export function TriggerButton({ label, icon, className, clickHandler }: Props) {
                 className
             )}
         >
-            <div>{ label || 'Click' }</div>
+            <div>
+                <p>{ label || 'Click' }</p>
+            </div>
             { icon && <div>{ icon }</div> }
         </button>
     );
