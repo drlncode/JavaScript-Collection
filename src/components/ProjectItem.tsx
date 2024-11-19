@@ -11,13 +11,13 @@ export default function ProjectItem({ project }: { project: Project }) {
                         <img
                             className='w-full h-full object-cover'
                             src={project.image}
-                            alt={`${project.id} image`}
+                            alt={`${project.name} image`}
                         />
                     </div>
                 </div>
                 <div className='flex flex-col font-montserrat-300 pl-0.5 pb-1'>
                     <div className='text-xl py-1'>
-                        <h2>{ project.id }</h2>
+                        <h2>{ project.name }</h2>
                     </div>
                     <div className='text-xs font-extralight'>
                         <p>{ project.description }</p>

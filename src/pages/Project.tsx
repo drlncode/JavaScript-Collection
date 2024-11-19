@@ -3,6 +3,7 @@ import { useProjects } from '@/hooks/useProjects';
 import { useModals } from '@/hooks/useModals';
 import { TriggerButton } from '@/components/TriggerButton';
 import { ArrowsMaximizeIcon } from '@/components/Icons';
+import ProjectContainer from '@/components/ProjectContainer';
 
 export default function ProjectPage() {
     const { name } = useParams();
@@ -17,9 +18,7 @@ export default function ProjectPage() {
 
     const openClickHandler = () => {
         setModal(
-            <div>
-                <h1>Hello ngga</h1>
-            </div>
+            <ProjectContainer src={`../${project.index}`} />
         );
     }
 
@@ -31,15 +30,15 @@ export default function ProjectPage() {
                         <img
                             className='w-full h-full object-cover'
                             src={`../${project.image}`}
-                            alt={`${project.id} image`}
-                            title={`${project.id} image`}
+                            alt={`${project.name} image`}
+                            title={`${project.name} image`}
                         />
                     </div>
                 </div>
                 <div className='flex flex-col gap-4 content:pl-4'>
                     <div className='flex flex-col gap-1.5 content:w-3/4'>
                         <div className='text-2xl'>
-                            <h3>{ project.id }</h3>
+                            <h3>{ project.name }</h3>
                         </div>
                         <div className='text-main-white/70 text-sm'>
                             <p>{ project.description }</p>
@@ -61,7 +60,7 @@ export default function ProjectPage() {
                         <img
                             className='object-contain'
                             src={`../${project.image}`}
-                            alt={`${project.id} image`}
+                            alt={`${project.name} image`}
                         />
                     </div>
                 </div>

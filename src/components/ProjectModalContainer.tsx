@@ -21,7 +21,7 @@ export default function ProjectModalContainer({ children, unsetModal }: Props) {
                             <ArrowsMinimizeIcon size={18} />
                         </div>
                     </div>
-                    <div className='w-full h-full rounded-md'>
+                    <div className='w-full h-full'>
                         { children }
                     </div>
                 </div>
