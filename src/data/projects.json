@@ -1,6 +1,7 @@
 [
     {
         "id": "test",
+        "index": "static/projects/test/index.html",
         "image": "static/projects/test/image.png",
         "description": "Empty project for development algo grande aaaaaaa siisisi asyas qu enasbjhasj asjhas.",
         "codeUrl": "https://github.com/drlncode/JavaScript-Collection/tree/master/public/static/projects/test"

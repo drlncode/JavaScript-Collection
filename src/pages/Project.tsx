@@ -18,8 +18,8 @@ export default function ProjectPage() {
     }
 
     return (
-        <section className='pt-10 font-montserrat-300'>
-            <div className='flex flex-col gap-3 px-[46px] content:flex-row'>
+        <section className='pt-10 font-montserrat-300 px-[46px]'>
+            <div className='flex flex-col gap-3 content:flex-row'>
                 <div className='w-full h-[180px] overflow-hidden flex justify-center items-center content:w-[350px] rounded-md border border-main-yellow/25'>
                     <div className='w-full h-full'>
                         <img
@@ -49,7 +49,17 @@ export default function ProjectPage() {
                     </div>
                 </div>
             </div>
-            <div></div>
+            <div className='mt-7 pt-7 pb-10 border-t border-t-main-yellow'>
+                <div className='flex justify-center items-center w-full h-full rounded overflow-hidden'>
+                    <div>
+                        <img
+                            className='object-contain'
+                            src={`../${project.image}`}
+                            alt={`${project.id} image`}
+                        />
+                    </div>
+                </div>
+            </div>
         </section>
     );
 }
