@@ -1,10 +1,12 @@
 import { useParams, Navigate } from 'react-router-dom';
 import { useProjects } from '@/hooks/useProjects';
+import { useModals } from '@/hooks/useModals';
 import { TriggerButton } from '@/components/TriggerButton';
 import { ArrowsMaximizeIcon } from '@/components/Icons';
 
 export default function ProjectPage() {
     const { name } = useParams();
+    const { setModal } = useModals();
     const projectValidation = useProjects(name!);
 
     if (!projectValidation.exists) {
@@ -14,7 +16,11 @@ export default function ProjectPage() {
     const { project } = projectValidation;
 
     const openClickHandler = () => {
-        console.log('Yay open');
+        setModal(
+            <div>
+                <h1>Hello ngga</h1>
+            </div>
+        );
     }
 
     return (
