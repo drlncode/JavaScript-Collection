@@ -1,10 +1,1 @@
-[
-    {
-        "id": "build",
-        "name": "Build Project",
-        "index": "static/projects/test/index.html",
-        "image": "static/projects/test/image.png",
-        "description": "Just a empty project for build the UI.",
-        "codeUrl": "https://github.com/drlncode/JavaScript-Collection/tree/master/public/static/projects/test"
-    }
-]
+[]
