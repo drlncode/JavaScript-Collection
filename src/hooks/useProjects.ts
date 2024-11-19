@@ -11,7 +11,7 @@ export function useProjects(exists: string): ReturnedExistenceType;
 export function useProjects(exists?: string): Project[] | ReturnedExistenceType {
     const projects = projectsJson as Project[];
     
-    if (!exists) {
+    if (exists) {
         const project = projects.find(project => project.id === exists);
         
         return project
