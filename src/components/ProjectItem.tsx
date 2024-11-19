@@ -1,10 +1,10 @@
 import { Project } from '@/types/projects';
-import { ProjectItemButton } from './ProjectItemButton';
-import { CodeIcon, WorldIcon } from './Icons';
+import { ProjectItemButton } from '@/components/ProjectItemButton';
+import { CodeIcon, WorldIcon } from '@/components/Icons';
 
 export default function ProjectItem({ project }: { project: Project }) {
     return (
-        <div className='group w-64 p-2 mb-1 pb-14 border border-main-yellow/40 rounded-lg duration-standar transition-colors hover:border-main-yellow/80 hover:shadow-project relative overflow-hidden'>
+        <div className='group w-64 p-2 mb-1 pb-14 border border-main-yellow/40 rounded-lg transition-all duration-standar hover:border-main-yellow/80 hover:shadow-project relative overflow-hidden'>
             <div className='flex flex-col'>
                 <div className='flex justify-center items-center max-w-60'>
                     <div className='flex justify-center items-center h-[130px] w-full overflow-hidden rounded-md border border-main-yellow/40'>
@@ -38,7 +38,7 @@ export default function ProjectItem({ project }: { project: Project }) {
                     icon={<WorldIcon size={18} />}
                 />
             </div>
-            <div className='invisible select-none pointer-events-none content:visible content:select-auto absolute duration-standar transition-colors bg-main-black/40 w-full h-full top-0 left-0 group-hover:bg-transparent'></div>
+            <div className='invisible select-none pointer-events-none content:visible content:select-auto absolute transition-colors duration-standar bg-main-black/40 w-full h-full top-0 left-0 group-hover:bg-transparent'></div>
         </div>
     );
 }
