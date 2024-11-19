@@ -4,7 +4,7 @@ import { ExternalLink } from '@/components/ExternalLink';
 
 export default function Header() {
     return (
-        <header className='bg-main-black fixed w-full max-w-[800px] border-b border-b-main-yellow z-50 mb-1'>
+        <header className='bg-main-black fixed w-full max-w-[800px] border-b border-b-main-yellow mb-1'>
             <div className='flex justify-between px-9 pb-4 pt-5'>
                 <div className='*:p-2.5 *:transition-colors *:duration-standar'>
                     <Link to='/' className='hover:text-main-yellow'>Home</Link>
