@@ -11,7 +11,7 @@ export default function HomePage() {
                 </div>
                 <div className='w-full'>
                     <div className='w-[70%] m-auto'>
-                        <p>Projects created with <HighlightText>JavaScript</HighlightText> as practice resource, organized into a SPA (Single Page Application) made with React + TailwindCSS.</p>
+                        <p>A collection of practical projects built with <HighlightText>JavaScript</HighlightText> to learn and improve web development skills.</p>
                     </div>
                 </div>
             </div>
